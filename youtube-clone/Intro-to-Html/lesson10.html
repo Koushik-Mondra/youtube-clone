@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .image {
+        border-radius: 50px;
+        height: 30px;
+        width: 30px;
+      }
+      .textclass {
+        font-family: Arial;
+        font-weight: bold;
+      }
+      .divi {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        column-gap: 10px;
+      }
+      .mutu {
+        color: gray;
+        display: block;
+        margin-top: 5px;
+      }
+      .butt {
+        border-radius: 3px;
+        color: white;
+        border-color: blue;
+        background-color: blue;
+        border-style: solid;
+        width: 100px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .grid-indo {
+        display: grid;
+        grid-template-columns: 300px 300px 1fr;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-indo">
+      <div>
+        <img src="cat.jpg">
+        <p class="textclass">Oliver</p>
+        <div class="divi">
+          <img class="image" src="cat.jpg">
+          <p class="mutu">2 mutual friends</p>
+        </div>
+        <button class="butt">Add Friend</button>
+      </div>
+  
+      <div>
+        <img src="cat.jpg">
+        <p class="textclass">Oliver</p>
+        <div class="divi">
+          <img class="image" src="cat.jpg">
+          <p class="mutu">2 mutual friends</p>
+        </div>
+        <button class="butt">Add Friend</button>
+      </div>
+  
+      <div>
+        <img src="cat.jpg">
+        <p class="textclass">Oliver</p>
+        <div class="divi">
+          <img class="image" src="cat.jpg">
+          <p class="mutu">2 mutual friends</p>
+        </div>
+        <button class="butt">Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
